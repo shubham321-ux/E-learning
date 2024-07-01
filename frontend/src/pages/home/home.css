@@ -1,0 +1,35 @@
+.home {
+  background: 
+  url('../../assets/rm373batch13-089.jpg') center/cover no-repeat;
+  padding: 100px 0;
+  box-sizing: border-box;
+  text-align: center;
+color: white;
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 40px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      padding: 12px 24px;
+    }
+  }
+}
